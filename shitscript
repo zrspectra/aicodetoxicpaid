@@ -8,8 +8,8 @@ local player = game.Players.LocalPlayer
 local displayName = player.DisplayName or player.Name
 
 -- VENTANA PRINCIPAL
-local window = library:AddWindow("Luxury Pc Version", {
-    main_color = Color3.fromRGB(176, 38, 255),
+local window = library:AddWindow("toxic paid ez'd by spectra", {
+    main_color = Color3.fromRGB(0, 0, 0),
     min_size = Vector2.new(750, 870),
     can_resize = true,
 })
@@ -4815,6 +4815,7 @@ Credits:AddLabel("Script Hecho por: Rafael")
 Credits:AddLabel("Tiktok:DeathKiller")
 Credits:AddLabel("MVX ON TOP 🔥")
 Credits:AddLabel("JASSON MI VIEJA")
+
 
 
 
