@@ -1,51 +1,5 @@
-local whitelist = {
-    ["Rafael25IC"] = true,
-    ["elpepe2929290"] = true,
-    ["Doritosdezz_0"] = true,
-    ["kkaconsal"] = true,
-    ["jmg6600"] = true,
-    ["heri631"] = true,
-    ["THEKINGOAT011"] = true,
-    ["loxa214"] = true,
-    ["TheReal9818"] = true,
-    ["Tinagarciax"] = true,
-    ["Gato_pro239"] = true,
-    ["pro9pup"] = true,
-    ["ilopo124"] = true,
-    ["Mathi_sann"] = true,
-    ["ghost_secu4"] = true,
-    ["erneoroytxd"] = true,
-    ["guhtfyxy"] = true,
-    ["BrizzyTK"] = true,
-    ["JohanAxelRS"] = true,
-    ["KKSHIPAPI"] = true,
-    ["jova12008"] = true,
-    ["2shenanagin2"] = true,
-    ["Rennnnqpal"] = true,
-    [""] = true,
-    [""] = true,
-    [""] = true,
-    [""] = true,
-    [""] = true, 
-    [""] = true,
-    [""] = true,
-    [""] = true,
-    [""] = true,
-    [""] = true,
-    [""] = true,
-    [""] = true,
-    [""] = true,
-    [""] = true,
-    [""] = true
-}
-
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
-
-if not whitelist[LocalPlayer.Name] then
-    LocalPlayer:Kick("No estas en WhiteList para usar este script")
-end
-
 -- CARGA DE LIBRERÍA
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/rafael25ic-blip/phoenix-cracked/refs/heads/main/Librerya%20Phoenix%20Crack"))()
 
@@ -4862,3 +4816,4 @@ Credits:AddLabel("Script Hecho por: Rafael")
 Credits:AddLabel("Tiktok:DeathKiller")
 Credits:AddLabel("MVX ON TOP 🔥")
 Credits:AddLabel("JASSON MI VIEJA")
+
