@@ -1,16 +1,12 @@
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
--- CARGA DE LIBRERÍA
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/memejames/elerium-v2-ui-library//main/Library", true))
-
--- OBTENER NOMBRE DEL JUGADOR
 local player = game.Players.LocalPlayer
 local displayName = player.DisplayName or player.Name
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/memejames/elerium-v2-ui-library//main/Library", true))
 
--- VENTANA PRINCIPAL
 local window = library:AddWindow("toxic paid ez'd by spectra", {
     main_color = Color3.fromRGB(0, 0, 0),
-    min_size = Vector2.new(750, 870),
+    min_size = Vector2.new(650, 850),
     can_resize = true,
 })
 local AutoFarm = window:AddTab("Farm OP")
@@ -4815,6 +4811,7 @@ Credits:AddLabel("Script Hecho por: Rafael")
 Credits:AddLabel("Tiktok:DeathKiller")
 Credits:AddLabel("MVX ON TOP 🔥")
 Credits:AddLabel("JASSON MI VIEJA")
+
 
 
 
