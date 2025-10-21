@@ -6,7 +6,7 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/rafae
 
 local window = library:AddWindow("toxic paid ez'd by spectra", {
     main_color = Color3.fromRGB(0, 0, 0),
-    min_size = Vector2.new(650, 850),
+    min_size = Vector2.new(650, 750),
     can_resize = true,
 })
 local AutoFarm = window:AddTab("Farm OP")
@@ -4806,11 +4806,12 @@ end)
 
 local Credits = window:AddTab("Credits")
 
-Credits:AddLabel("Toxic Paid V3")
-Credits:AddLabel("Script Hecho por: Rafael")
-Credits:AddLabel("Tiktok:DeathKiller")
-Credits:AddLabel("MVX ON TOP 🔥")
-Credits:AddLabel("JASSON MI VIEJA")
+Credits:AddLabel("Toxic Paid Ez'd By Spectra")
+Credits:AddLabel("get better at coding lol")
+Credits:AddLabel("Rafael uses ai")
+Credits:AddLabel("MVX ON BOTTOM")
+Credits:AddLabel("Shitass script lmao")
+
 
 
 
